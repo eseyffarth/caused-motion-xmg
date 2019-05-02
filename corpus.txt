@@ -1,0 +1,17 @@
+John sang
+John danced
+Mary danced
+Sylvia jumped
+Bill laughed
+John danced to Bill
+John jumped to Bill
+John danced to the door
+Sylvia jumped to the fence
+the horse jumped to Bill
+John danced Mary to Bill
+John sang Mary to Bill
+John danced Mary to the door
+John sang Mary to the door
+Sylvia jumped Mary to the door
+Bill laughed the horse over the fence
+Sylvia jumped the horse

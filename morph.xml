@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<mcgrammar>
+<morphs>
+  <morph lex="off">
+    <lemmaref cat="p" name="off">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="over">
+    <lemmaref cat="p" name="over">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="to">
+    <lemmaref cat="p" name="to">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="the">
+    <lemmaref cat="det" name="the">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="stage">
+    <lemmaref cat="n" name="stage">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="fence">
+    <lemmaref cat="n" name="fence">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="horse">
+    <lemmaref cat="n" name="horse">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="door">
+    <lemmaref cat="n" name="door">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="Sylvia">
+    <lemmaref cat="n" name="sylvia">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="Bill">
+    <lemmaref cat="n" name="bill">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="Mary">
+    <lemmaref cat="n" name="mary">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="John">
+    <lemmaref cat="n" name="john">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="laugh">
+    <lemmaref cat="v" name="laugh">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="laughed">
+    <lemmaref cat="v" name="laugh">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="jump">
+    <lemmaref cat="v" name="jump">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="jumped">
+    <lemmaref cat="v" name="jump">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="sing">
+    <lemmaref cat="v" name="sing">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="sang">
+    <lemmaref cat="v" name="sing">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="dance">
+    <lemmaref cat="v" name="dance">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="danced">
+    <lemmaref cat="v" name="dance">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+</morphs>
+</mcgrammar>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<mcgrammar>
+<lemmas>
+  <lemma name="off" cat="p">
+    <anchor tree_id="family[@name=PrepositionPhrase]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameOff"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="over" cat="p">
+    <anchor tree_id="family[@name=PrepositionPhrase]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameOver"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="to" cat="p">
+    <anchor tree_id="family[@name=PrepositionPhrase]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameTo"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="the" cat="det">
+    <anchor tree_id="family[@name=Determiners]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameDummy"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="stage" cat="n">
+    <anchor tree_id="family[@name=commonnoun]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameStage"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="fence" cat="n">
+    <anchor tree_id="family[@name=commonnoun]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameFence"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="horse" cat="n">
+    <anchor tree_id="family[@name=commonnoun]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameHorse"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="door" cat="n">
+    <anchor tree_id="family[@name=commonnoun]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameDoor"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="jump" cat="v">
+    <anchor tree_id="family[@name=n0V]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameJump"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="jump" cat="v">
+    <anchor tree_id="family[@name=BareVerbProjection]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameJump"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="jump" cat="v">
+    <anchor tree_id="family[@name=n0Vpp]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameJump"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="jump" cat="v">
+    <anchor tree_id="family[@name=ActionInducingVerbProjection]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameJump"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="jump" cat="v">
+    <anchor tree_id="family[@name=n0Vn1pp_actioninducing]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameJump"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="laugh" cat="v">
+    <anchor tree_id="family[@name=n0V]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameLaugh"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="laugh" cat="v">
+    <anchor tree_id="family[@name=BareVerbProjection]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameLaugh"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="laugh" cat="v">
+    <anchor tree_id="family[@name=MotionCausingVerbProjection]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameLaugh"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="sing" cat="v">
+    <anchor tree_id="family[@name=n0V]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameSing"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="sing" cat="v">
+    <anchor tree_id="family[@name=BareVerbProjection]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameSing"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="sing" cat="v">
+    <anchor tree_id="family[@name=MotionCausingVerbProjection]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameSing"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="dance" cat="v">
+    <anchor tree_id="family[@name=n0V]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameDance"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="dance" cat="v">
+    <anchor tree_id="family[@name=BareVerbProjection]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameDance"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="dance" cat="v">
+    <anchor tree_id="family[@name=DirectedVerbProjection]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameDance"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="dance" cat="v">
+    <anchor tree_id="family[@name=n0Vpp]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameDance"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="dance" cat="v">
+    <anchor tree_id="family[@name=MotionCausingVerbProjection]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameDance"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="sylvia" cat="n">
+    <anchor tree_id="family[@name=propernoun]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameSylvia"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="bill" cat="n">
+    <anchor tree_id="family[@name=propernoun]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameBill"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="mary" cat="n">
+    <anchor tree_id="family[@name=propernoun]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameMary"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="john" cat="n">
+    <anchor tree_id="family[@name=propernoun]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameJohn"/>
+      </sem>
+    </anchor>
+  </lemma>
+</lemmas>
+</mcgrammar>

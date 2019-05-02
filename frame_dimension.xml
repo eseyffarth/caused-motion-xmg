@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<grammar>
+  <entry name="FrameDummy_0">
+    <family>FrameDummy</family>
+    <trace>
+      <class>FrameDummy</class>
+    </trace>
+    <frame >
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameOff_1">
+    <family>FrameOff</family>
+    <trace>
+      <class>FrameOff</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="path"/>
+        </ctype>
+        <f name="trajectory">
+          <sym value="off"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameTo_2">
+    <family>FrameTo</family>
+    <trace>
+      <class>FrameTo</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="path"/>
+        </ctype>
+        <f name="trajectory">
+          <sym value="to"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameOver_3">
+    <family>FrameOver</family>
+    <trace>
+      <class>FrameOver</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="path"/>
+        </ctype>
+        <f name="trajectory">
+          <sym value="over"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameStage_4">
+    <family>FrameStage</family>
+    <trace>
+      <class>FrameStage</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="physical_object"/>
+        </ctype>
+        <f name="kind">
+          <sym value="stage"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameFence_5">
+    <family>FrameFence</family>
+    <trace>
+      <class>FrameFence</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="physical_object"/>
+        </ctype>
+        <f name="kind">
+          <sym value="fence"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameHorse_6">
+    <family>FrameHorse</family>
+    <trace>
+      <class>FrameHorse</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="actor"/>
+        </ctype>
+        <f name="kind">
+          <sym value="horse"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameDoor_7">
+    <family>FrameDoor</family>
+    <trace>
+      <class>FrameDoor</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="physical_object"/>
+        </ctype>
+        <f name="kind">
+          <sym value="door"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameSylvia_8">
+    <family>FrameSylvia</family>
+    <trace>
+      <class>FrameSylvia</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="person"/>
+        </ctype>
+        <f name="name">
+          <sym value="Sylvia"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameBill_9">
+    <family>FrameBill</family>
+    <trace>
+      <class>FrameBill</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="person"/>
+        </ctype>
+        <f name="name">
+          <sym value="Bill"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameMary_10">
+    <family>FrameMary</family>
+    <trace>
+      <class>FrameMary</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="person"/>
+        </ctype>
+        <f name="name">
+          <sym value="Mary"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameJohn_11">
+    <family>FrameJohn</family>
+    <trace>
+      <class>FrameJohn</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="person"/>
+        </ctype>
+        <f name="name">
+          <sym value="John"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameLaugh_12">
+    <family>FrameLaugh</family>
+    <trace>
+      <class>FrameLaugh</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="activity"/>
+        </ctype>
+        <f name="actor">
+          <sym varname="@V2"/>
+        </f>
+        <f name="manner">
+          <sym value="laughing"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="e">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameJump_13">
+    <family>FrameJump</family>
+    <trace>
+      <class>FrameJump</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="activity"/>
+        </ctype>
+        <f name="actor">
+          <sym varname="@V2"/>
+        </f>
+        <f name="manner">
+          <sym value="jumping"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="e">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameSing_14">
+    <family>FrameSing</family>
+    <trace>
+      <class>FrameSing</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="activity"/>
+        </ctype>
+        <f name="actor">
+          <sym varname="@V2"/>
+        </f>
+        <f name="manner">
+          <sym value="singing"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="e">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameDance_15">
+    <family>FrameDance</family>
+    <trace>
+      <class>FrameDance</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="activity"/>
+        </ctype>
+        <f name="actor">
+          <sym varname="@V2"/>
+        </f>
+        <f name="manner">
+          <sym value="dancing"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="e">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+</grammar>
